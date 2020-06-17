@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Salesforce Application Regression_Suite">
+<listeners>
+<listener class-name="com.Salesforce.qa.ExtentReportListener.ExtentReportListener"></listener>
+
+</listeners>
+<test name="Salesforce application Test Cases">
+      <classes>
+      	<class name="com.Salesforce.qa.LoginTest.LoginPageTest"/>
+    	<class name="com.Salesforce.qa.HomePageTest.HomePageTest"/>
+    	<class name="com.Salesforce.qa.ContactsPageTest.ContactsPageTest"/>
+    	
+  </classes>
+  </test> 
+</suite> 

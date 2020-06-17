@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Salesforce Application Regression_Suite]">
+  <listeners>
+    <listener class-name="com.Salesforce.qa.ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Salesforce application Test Cases(failed)">
+    <classes>
+      <class name="com.Salesforce.qa.ContactsPageTest.ContactsPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDownMethod"/>
+          <include name="loginToApplication"/>
+          <include name="verifyNewContacts" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.Salesforce.qa.ContactsPageTest.ContactsPageTest -->
+    </classes>
+  </test> <!-- Salesforce application Test Cases(failed) -->
+</suite> <!-- Failed suite [Salesforce Application Regression_Suite] -->

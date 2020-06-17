@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="1" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Salesforce Application Sanity_Suite" duration-ms="76832" started-at="2020-06-17T09:49:46Z" finished-at="2020-06-17T09:51:03Z">
+    <groups>
+    </groups>
+    <test name="Salesforce application Test Cases" duration-ms="76832" started-at="2020-06-17T09:49:46Z" finished-at="2020-06-17T09:51:03Z">
+      <class name="com.Salesforce.qa.HomePageTest.HomePageTest">
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:com.Salesforce.qa.HomePageTest.HomePageTest@553a3d88]" name="loginToApplication" is-config="true" duration-ms="13031" started-at="2020-06-17T09:49:58Z" finished-at="2020-06-17T09:50:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="verifyLogoIsDisplayedTest()[pri:1, instance:com.Salesforce.qa.HomePageTest.HomePageTest@553a3d88]" name="verifyLogoIsDisplayedTest" duration-ms="2424" started-at="2020-06-17T09:50:11Z" finished-at="2020-06-17T09:50:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoIsDisplayedTest -->
+        <test-method status="PASS" signature="tesrDownMethod()[pri:0, instance:com.Salesforce.qa.HomePageTest.HomePageTest@553a3d88]" name="tesrDownMethod" is-config="true" duration-ms="1257" started-at="2020-06-17T09:50:13Z" finished-at="2020-06-17T09:50:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tesrDownMethod -->
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:com.Salesforce.qa.HomePageTest.HomePageTest@553a3d88]" name="loginToApplication" is-config="true" duration-ms="14413" started-at="2020-06-17T09:50:26Z" finished-at="2020-06-17T09:50:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="verifyContactsIsClickableTest()[pri:2, instance:com.Salesforce.qa.HomePageTest.HomePageTest@553a3d88]" name="verifyContactsIsClickableTest" duration-ms="3220" started-at="2020-06-17T09:50:41Z" finished-at="2020-06-17T09:50:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsIsClickableTest -->
+        <test-method status="PASS" signature="tesrDownMethod()[pri:0, instance:com.Salesforce.qa.HomePageTest.HomePageTest@553a3d88]" name="tesrDownMethod" is-config="true" duration-ms="1002" started-at="2020-06-17T09:50:44Z" finished-at="2020-06-17T09:50:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tesrDownMethod -->
+      </class> <!-- com.Salesforce.qa.HomePageTest.HomePageTest -->
+      <class name="com.Salesforce.qa.LoginTest.LoginPageTest">
+        <test-method status="PASS" signature="launchBrowserSetup()[pri:0, instance:com.Salesforce.qa.LoginTest.LoginPageTest@64f6106c]" name="launchBrowserSetup" is-config="true" duration-ms="8255" started-at="2020-06-17T09:49:46Z" finished-at="2020-06-17T09:49:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserSetup -->
+        <test-method status="FAIL" signature="salesforceLogoTest()[pri:1, instance:com.Salesforce.qa.LoginTest.LoginPageTest@64f6106c]" name="salesforceLogoTest" duration-ms="1401" started-at="2020-06-17T09:49:55Z" finished-at="2020-06-17T09:49:56Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.Salesforce.qa.LoginTest.LoginPageTest.salesforceLogoTest(LoginPageTest.java:36)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- salesforceLogoTest -->
+        <test-method status="PASS" signature="tear()[pri:0, instance:com.Salesforce.qa.LoginTest.LoginPageTest@64f6106c]" name="tear" is-config="true" duration-ms="1188" started-at="2020-06-17T09:49:57Z" finished-at="2020-06-17T09:49:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method status="PASS" signature="launchBrowserSetup()[pri:0, instance:com.Salesforce.qa.LoginTest.LoginPageTest@64f6106c]" name="launchBrowserSetup" is-config="true" duration-ms="7901" started-at="2020-06-17T09:50:14Z" finished-at="2020-06-17T09:50:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserSetup -->
+        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.Salesforce.qa.LoginTest.LoginPageTest@64f6106c]" name="loginTest" duration-ms="2783" started-at="2020-06-17T09:50:22Z" finished-at="2020-06-17T09:50:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tear()[pri:0, instance:com.Salesforce.qa.LoginTest.LoginPageTest@64f6106c]" name="tear" is-config="true" duration-ms="993" started-at="2020-06-17T09:50:25Z" finished-at="2020-06-17T09:50:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method status="PASS" signature="launchBrowserSetup()[pri:0, instance:com.Salesforce.qa.LoginTest.LoginPageTest@64f6106c]" name="launchBrowserSetup" is-config="true" duration-ms="7862" started-at="2020-06-17T09:50:45Z" finished-at="2020-06-17T09:50:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserSetup -->
+        <test-method status="PASS" signature="salesforceTitleTest()[pri:3, instance:com.Salesforce.qa.LoginTest.LoginPageTest@64f6106c]" name="salesforceTitleTest" duration-ms="9614" started-at="2020-06-17T09:50:53Z" finished-at="2020-06-17T09:51:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- salesforceTitleTest -->
+        <test-method status="PASS" signature="tear()[pri:0, instance:com.Salesforce.qa.LoginTest.LoginPageTest@64f6106c]" name="tear" is-config="true" duration-ms="999" started-at="2020-06-17T09:51:02Z" finished-at="2020-06-17T09:51:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Salesforce.qa.LoginTest.LoginPageTest@64f6106c]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-17T09:51:03Z" finished-at="2020-06-17T09:51:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Salesforce.qa.LoginTest.LoginPageTest -->
+    </test> <!-- Salesforce application Test Cases -->
+  </suite> <!-- Salesforce Application Sanity_Suite -->
+</testng-results>
